@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
             "skills": ["HTML & ", "CSS, ", " JS,", " ReactJS"],
             "location": "Remote Online",
             "applicationStatus": "Active",
-            "image": "../public/images/mangosorange-agritech.png"
+            "image": "../Public/images/mangosorange-agritech.png"
         },
         {
             "company": "Hiremi Technologies",
@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
             "skills": ["HTML & ", "CSS, ", " JS,", " ReactJS"],
             "location": "Remote Online",
             "applicationStatus": "Active",
-            "image": "../public/images//Hiremi.png"
+            "image": "../Public/images//Hiremi.png"
         },
         {
             "company": "Hackveda LLC",
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
             "skills": ["HTML & ", "CSS, ", " JS,", " ReactJS"],
             "location": "Remote Online",
             "applicationStatus": "Active",
-            "image": "../public/images/data science ai.png"
+            "image": "../Public/images/data science ai.png"
         },
         {
             "company": "Spark to Ideas",
@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
             "skills": ["HTML & ", "CSS, ", " JS,", " ReactJS"],
             "location": "Remote Online",
             "applicationStatus": "Active",
-            "image": "../public/images/spark to ideas.png"
+            "image": "../Public/images/spark to ideas.png"
         },
         {
             "company": "CRTD Technologies",
@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", function () {
             "skills": ["HTML & ", "CSS, ", " JS,", " ReactJS"],
             "location": "Remote Online",
             "applicationStatus": "Active",
-            "image": "../public/images/CRDT technologies.png"
+            "image": "../Public/images/CRDT technologies.png"
         },
         {
             "company": "Microsoft Azure",
@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function () {
             "skills": ["HTML & ", "CSS, ", " JS,", " ReactJS"],
             "location": "Remote Online",
             "applicationStatus": "Active",
-            "image": "../public/images/Microsoft Azur.png"
+            "image": "../Public/images/Microsoft Azur.png"
         },
         {
             "company": "JAVA DSA instructor",
@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", function () {
             "skills": ["HTML & ", "CSS, ", " JS,", " ReactJS"],
             "location": "Remote Online",
             "applicationStatus": "Active",
-            "image": "../public/images/java DSA instructor.png"
+            "image": "../Public/images/java DSA instructor.png"
         },
         {
             "company": "AIML Data Scientist Intern",
@@ -91,7 +91,7 @@ document.addEventListener("DOMContentLoaded", function () {
             "skills": ["HTML & ", "CSS, ", " JS,", " ReactJS"],
             "location": "Remote Online",
             "applicationStatus": "Active",
-            "image": "../public/images/Genpact.png"
+            "image": "../Public/images/Genpact.png"
         },
         {
             "company": "IoT Security Specialist",
@@ -102,7 +102,7 @@ document.addEventListener("DOMContentLoaded", function () {
             "skills": ["HTML & ", "CSS, ", " JS,", " ReactJS"],
             "location": "Remote Online",
             "applicationStatus": "Active",
-            "image": "../public/images/cisco.png"
+            "image": "../Public/images/cisco.png"
         },
         {
             "company": "Spark to Ideas",
@@ -113,7 +113,7 @@ document.addEventListener("DOMContentLoaded", function () {
             "skills": ["HTML & ", "CSS, ", " JS,", " ReactJS"],
             "location": "Remote Online",
             "applicationStatus": "Active",
-            "image": "../public/images/spark to ideas.png"
+            "image": "../Public/images/spark to ideas.png"
         },
         {
             "company": "CRTD Technologies",
@@ -124,7 +124,7 @@ document.addEventListener("DOMContentLoaded", function () {
             "skills": ["HTML & ", "CSS, ", " JS,", " ReactJS"],
             "location": "Remote Online",
             "applicationStatus": "Active",
-            "image": "../public/images/CRDT technologies.png"
+            "image": "../Public/images/CRDT technologies.png"
         }
     ];
 
