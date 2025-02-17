@@ -1,4 +1,4 @@
-function toggleFaq(index) {
+/*function toggleFaq(index) {
     var answers = document.querySelectorAll('.faq-answer');
     var questions = document.querySelectorAll('.faq-question');
 
@@ -22,4 +22,57 @@ window.onload = function() {
 setTimeout(function() {
     document.querySelector('.alert').classList.add('show');
     }, 2000);
-};
+};*/
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    // FAQ Toggle Functionality
+    document.querySelectorAll('.faq-question').forEach((question, index) => {
+        question.addEventListener('click', function () {
+            document.querySelectorAll('.faq-answer').forEach((answer, i) => {
+                const isActive = index === i && !answer.classList.contains('visible');
+                answer.classList.toggle('visible', isActive);
+                document.querySelectorAll('.faq-question')[i].classList.toggle('active', isActive);
+            });
+        });
+    });
+
+    // Banner Close Button
+    const closeBtn = document.querySelector('.close-btn');
+    if (closeBtn) {
+        closeBtn.addEventListener('click', function () {
+            const banner = document.querySelector('.banner-container');
+            if (banner) banner.style.display = 'none';
+        });
+    }
+
+    // Alert Timeout
+    setTimeout(() => {
+        const alertBox = document.querySelector('.alert');
+        if (alertBox) alertBox.classList.add('show');
+    }, 2000);
+
+    // Carousel Functionality
+    let currentIndex = 0;
+    const totalSlides = 5;
+    const slidesToShow = 3;
+    const carouselInner = document.getElementById('carousel-inner');
+    const indicators = document.querySelectorAll('#carousel-indicators .indicator');
+
+    function showSlide(index) {
+        if (!carouselInner) return;
+        const offset = -index * (100 / slidesToShow);
+        carouselInner.style.transform = `translateX(${offset}%)`;
+
+        indicators.forEach((dot, i) => {
+            dot.classList.toggle('active', i === index % totalSlides);
+        });
+    }
+
+    function autoSlide() {
+        currentIndex = (currentIndex + 1) % totalSlides;
+        showSlide(currentIndex);
+    }
+
+    setInterval(autoSlide, 3000);
+});
